@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+img {
+    display: none;
+}
+h2 {
+    color: #000;
+    font-weight: normal;
+}
+main {
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 25%;
+    margin-bottom: auto;
+    text-align: left;
+}
+span {
+    color: #ff5c0f;
+}
+header {
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+    display: block;
+    align-items: left;
+}
+header h1 {
+    margin-right: auto;
+    margin-left: 10px;
+    color: #20a8b4;
+    font-weight: normal;
+}
+li {
+    list-style-type: none;
+    display: block;
+    align-items: left;
+    color: #000;
+    transition: 0s;
+    margin-left: 0;
+}
+li a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 0;
+    margin-right: auto;
+}
+li a:hover {
+    color: #ff5c0f;
+}
+header button {
+    background-color: #20a8b4;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 4px;
+    cursor: pointer;
+    transition: 0s;
+    margin-right: 10px;
+    width: 100%;
+}
+main button {
+    background-color: #20a8b4;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 4px;
+    cursor: pointer;
+    transition: 0s;
+    margin-left: 0;
+    width: 100%;
+}
+button:hover {
+    background-color:#ff5c0f;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    header button {
+        width: auto;
+    }
+    main button {
+        width: auto;
+    }
+    img {
+        display: block;
+        margin-right: 75px;
+        margin-top: -175px;
+        float: right;
+    }
+    header{
+        display: flex;
+        align-items: center;
+    }
+    li {
+        display: inline;
+        align-items: right;
+        margin: 4px;
+    }
+}
